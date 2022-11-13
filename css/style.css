@@ -40,6 +40,7 @@ section {
     --footer-addres-color: rgba(255, 255, 255, 0.6);
     --white-main-color: #ffffff;
     --bg-team-color: #F5F4FA;
+    --hero-bg-color: #C4C4C4;
 }
 
 
@@ -147,7 +148,8 @@ section {
     padding-top: 200px;
     padding-bottom: 200px;
     text-align: center;
-    background: var(--bg-main-color);
+    background: url(../img/mainBg.jpg);
+    background-color: var(--hero-bg-color);
 }
 .hero-title {
     margin-left: auto;
@@ -230,9 +232,15 @@ section {
     gap: 30px;
 }
 .team-items {
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
+    0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
     text-align: center;
+    background: var(--white-main-color);
 }
 .team-subheader {
+    padding-top: 30px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.2;
@@ -240,6 +248,7 @@ section {
     color: var(--main-text-color);
 }
 .team-txt {
+    padding-top: 10px;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.2;
@@ -339,6 +348,7 @@ section {
     flex-wrap: wrap;
 }
 .cards-items {
+    border: 1px solid #EEEEEE;
     text-align: center;
     width: 370px;
 }
@@ -348,6 +358,7 @@ section {
     height: auto;
 }
 .cards-header {
+    padding-top: 20px;
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -355,6 +366,7 @@ section {
     color: var(--main-text-color)
 }
 .cards-txt {
+    padding-top: 4px;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.8;
