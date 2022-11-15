@@ -392,12 +392,13 @@ section {
 
 .cards-items {
   border: 1px solid #EEEEEE;
-  text-align: center;
   width: 370px;
 }
 
 .cards-wrapper {
   padding-top: 20px;
+  padding-left: 24px;
+  padding-bottom: 20px;
 }
 
 .cards-img {
