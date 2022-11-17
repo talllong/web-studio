@@ -27,10 +27,20 @@
         <address class="addres-upper">
           <ul class="addres-list-upper">
             <li class="addres-items-upper">
-              <a class="addres-link-upper" href="mailto:info@devstudio.com">info@devstudio.com</a>
+              <a class="addres-link-upper" href="mailto:info@devstudio.com"
+                ><svg class="svg-addres">
+                  <use href="./img/symbol-defs-addres.svg#icon-konvert1"></use>
+                </svg>
+                info@devstudio.com</a
+              >
             </li>
             <li class="addres-items-upper">
-              <a class="addres-link-upper" href="tel:+380961111111">+38 096 111 11 11</a>
+              <a class="addres-link-upper" href="tel:+380961111111"
+                ><svg class="svg-addres phone-svg">
+                  <use href="./img/symbol-defs-addres.svg#icon-smartphone1"></use>
+                </svg>
+                +38 096 111 11 11</a
+              >
             </li>
           </ul>
         </address>
@@ -107,12 +117,21 @@
           <ul class="activity-list">
             <li class="activity-items">
               <img class="activity-img" src="./img/pic1.1.jpg" alt="keyboard" width="370" />
+              <div class="activity-subheader-wrapper">
+                <h3 class="activity-subheader">Десктопні додатки</h3>
+              </div>
             </li>
             <li class="activity-items">
               <img class="activity-img" src="./img/pic2.1.jpg" alt="phone" width="370" />
+              <div class="activity-subheader-wrapper">
+                <h3 class="activity-subheader">Мобільні додатки</h3>
+              </div>
             </li>
             <li class="activity-items">
               <img class="activity-img" src="./img/pic3.1.jpg" alt="tablet" width="370" />
+              <div class="activity-subheader-wrapper">
+                <h3 class="activity-subheader">Дизайнерські рішення</h3>
+              </div>
             </li>
           </ul>
         </div>
@@ -388,7 +407,12 @@
             <label class="label-form" for="mail">Підпишіться на розсилку</label>
             <input class="input-form" type="email" name="mail" id="mail" placeholder="E-mail" />
           </div>
-          <button class="form-btn" type="submit">Підписатися</button>
+          <button class="form-btn" type="submit">
+            Підписатися
+            <svg width="24px" height="24px">
+              <use href="./img/symbol-defs-clients.svg#icon-benefitsplain"></use>
+            </svg>
+          </button>
         </div>
       </div>
     </footer>

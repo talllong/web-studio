@@ -113,6 +113,19 @@ section {
   display: flex;
   gap: 50px;
 }
+.svg-addres:hover {
+  color: var(--main-color);
+}
+.svg-addres {
+  margin-right: 10px;
+  width: 16px;
+  height: 12px;
+  fill: currentColor;
+}
+.phone-svg {
+  height: 16px;
+  width: 10px;
+}
 
 .nav-link {
   position: relative;
@@ -161,6 +174,8 @@ section {
 }
 
 .addres-link-upper {
+  display: flex;
+  align-items: center;
   text-decoration: none;
   font-style: normal;
   font-weight: 500;
@@ -277,6 +292,26 @@ section {
 .activity-list {
   display: flex;
   gap: 30px;
+}
+.activity-items {
+  position: relative;
+}
+
+.activity-subheader-wrapper{
+  bottom: 0;
+  width: 100%;
+  padding: 27px;
+  position: absolute;
+  background: rgba(47, 48, 58, 0.8);
+}
+.activity-subheader {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--white-main-color);
 }
 
 .activity-img {
@@ -423,7 +458,7 @@ section {
 }
 .footer-container {
   display: flex;
-  align-items: center;
+  align-items: baseline;
 }
 
 .logo-footer {
@@ -538,6 +573,10 @@ section {
 }
 
 .form-btn {
+  display: inline-flex;
+  align-items:center;
+  justify-content: center;
+  gap: 10px;
   width: 200px;
   height: 50px;
   background: var(--main-color);
