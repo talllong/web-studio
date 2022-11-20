@@ -140,6 +140,7 @@ section {
   color: var(--main-text-color);
   transition-property: color;
   transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .active::before {
   content:'';
@@ -187,6 +188,7 @@ section {
   color: var(--sub-text-color);
   transition-property: color;
   transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .addres-link-upper:focus,
@@ -441,6 +443,7 @@ section {
   color: var(--icon-colr);
   transition-property: color background-color;
   transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .clients-link:focus,
 .clients-link:hover {
@@ -509,6 +512,7 @@ section {
   color: var(--footer-addres-color);
   transition-property: color;
   transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-addres-link:focus,
@@ -549,6 +553,7 @@ section {
 
     transition-property: color background-color;
     transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .form-wrapper {
